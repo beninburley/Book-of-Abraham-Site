@@ -2,7 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
-li:hover{
+ol:hover{
     font-size: 20px;
     background-color: aliceblue;
 }
