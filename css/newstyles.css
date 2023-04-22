@@ -1,8 +1,37 @@
-.hype{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
 }
 li:hover{
     font-size: 20px;
     background-color: lightblue;
+}
+.background{
+    background-image:url('../assets/lighterbricks.jpg');
+    background-position: center center;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+.navi{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: beige;
+}
+.bnav{
+    z-index: 1;
+    background-color: beige;
+}
+.btext{
+    border: 2px solid black;
+    padding: 2px;
+    position: absolute;
+}
+.standardop{
+    opacity: 1;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+    color: darkslategray;
+    text-align: center;
 }
